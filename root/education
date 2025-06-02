@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education – Anissa Demirsoy</title>
+  <style>
+    body {
+      font-family: Cambria, serif;
+      background-color: #ffffff;
+      color: #2a2a2a;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #0047ab;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Academic Background</h1>
+  <ul>
+    <li><strong>2024–2026</strong> – Bachelor’s Degree in Chemistry, University of Perpignan (66)</li>
+    <li><strong>2020–2022</strong> – DUT in Chemistry, IUT of Toulouse, Castres campus (81)</li>
+    <li><strong>2020</strong> – Scientific Baccalaureate, Lycée François Arago (66)</li>
+  </ul>
+</body>
+</html>
