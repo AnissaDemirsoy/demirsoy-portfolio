@@ -1,1 +1,0 @@
-# demirsoy-portfolio
