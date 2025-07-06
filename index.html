@@ -13,6 +13,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+  .accordion {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .accordion:hover {
+    background-color: #eaeaea;
+  }
+  .panel {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  .panel ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+</style>
+
   </head>
 
   <body>
@@ -412,5 +442,16 @@
       referrerpolicy="no-referrer"
     ></script>
     <script type="module" src="js/main.js"></script>
+    <script>
+  const accordions = document.querySelectorAll(".accordion");
+  accordions.forEach(acc => {
+    acc.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const panel = this.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
+
   </body>
 </html>
