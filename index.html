@@ -498,6 +498,15 @@
       panel.style.display = panel.style.display === "block" ? "none" : "block";
     });
   });
+      const goToTop = document.getElementById("goToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      goToTop.classList.add("show");
+    } else {
+      goToTop.classList.remove("show");
+    }
+  });
 </script>
 
   </body>
