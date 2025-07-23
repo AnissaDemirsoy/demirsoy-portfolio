@@ -24,8 +24,8 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   z-index: 999;
   cursor: pointer;
-  display: none; /* cachée par défaut */
-  transition: opacity 0.3s ease;
+  display: none; 
+  transition: opacity 0.5s ease;
 }
 
 .goToTop.show {
@@ -433,7 +433,7 @@
       <h2 class="title">Contact</h2>
     </div>
     <div class="contact-content">
-      <ul style="list-style: none; padding-left: 0; font-size: 1.5rem;">
+      <ul style="list-style: none; padding-left: 0; font-size: 1.1rem;">
 
         <li><strong>Email:</strong> tl.anissa01@gmail.com</li>
 
@@ -500,16 +500,14 @@
   });
 </script>
     <script>
-      const goToTop = document.getElementById("goToTop");
-
-  window.addEventListener("scroll", () => {
+  const goToTop = document.getElementById('goToTop');
+  window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
-      goToTop.classList.add("show");
+      goToTop.classList.add('show');
     } else {
-      goToTop.classList.remove("show");
+      goToTop.classList.remove('show');
     }
   });
 </script>
-
   </body>
 </html>
