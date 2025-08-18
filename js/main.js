@@ -35,7 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
       goToTop.classList.remove("reveal");
     }
   });
+const goToTopBtn = document.getElementById('goToTop');
 
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 500) {
+    goToTopBtn.classList.add('reveal');
+  } else {
+    goToTopBtn.classList.remove('reveal');
+  }
   let sections = document.querySelectorAll("section");
   let navLinks = document.querySelectorAll("header nav a");
 
