@@ -476,7 +476,7 @@ h5 {
 .contact-content {
   font-size: clamp(1rem, 0.964rem + 0.18vw, 1.125rem);
   color: var(--supportive-text-color);
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
 }
 
 .contact form {
