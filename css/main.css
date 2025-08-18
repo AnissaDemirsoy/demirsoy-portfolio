@@ -686,12 +686,5 @@ h5 {
     top: 0;
   }
 }
-const goToTopBtn = document.getElementById('goToTop');
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 500) {
-    goToTopBtn.classList.add('reveal');
-  } else {
-    goToTopBtn.classList.remove('reveal');
-  }
 });
