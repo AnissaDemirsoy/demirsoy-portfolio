@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
+  --brand-violet: #7B61FF;
   --primary-bg-color: #f7fbfd;
   --primary-accent: #0c1618;
   --secondary-accent: #6f1d1b;
@@ -226,6 +227,7 @@ h5 {
   font-weight: 500;
   font-size: clamp(2.5rem, 2.75rem + 2.5vw, 5rem);
   line-height: 1.2;
+  color: var(--brand-violet);
 }
 
 .hero-heading-subtitle {
@@ -315,6 +317,7 @@ h5 {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0px;
+  color: var(--brand-violet);
 }
 
 .skill-percent {
@@ -366,6 +369,7 @@ h5 {
   margin-bottom: 10px;
   font-weight: 600;
   font-size: clamp(1.125rem, 1.089rem + 0.18vw, 1.25rem);
+  color: var(--brand-violet);
 }
 
 .service-card p {
