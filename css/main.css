@@ -690,6 +690,7 @@ h5 {
 h2.title {
   color: var(--brand-violet) !important;
 }
+<link rel="stylesheet" href="css/main.css?v=violet-fix2">
 
 
 const goToTopBtn = document.getElementById('goToTop');
