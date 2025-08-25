@@ -194,7 +194,7 @@ h5 {
   text-underline-offset: 7px;
 }
 
-/* Hero section */
+
 .hero {
   position: relative;
   padding-top: 180px;
@@ -222,15 +222,22 @@ h5 {
 }
 
 .hero-heading {
-  margin: 5px 0;
+  margin: 3px 0;
   font-weight: 500;
-  font-size: clamp(3.25rem, 2.75rem + 2.5vw, 5rem);
+  font-size: clamp(2.5rem, 2.75rem + 2.5vw, 5rem);
   line-height: 1.2;
 }
 
 .hero-heading-subtitle {
   font-size: clamp(1.125rem, 1.054rem + 0.36vw, 1.375rem);
   font-weight: 400;
+}
+.hero-title {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .hero-img {
@@ -274,7 +281,7 @@ h5 {
     brightness(97%) contrast(103%);
 }
 
-/* About section */
+
 .about {
   padding: 7rem 0;
 }
@@ -307,7 +314,6 @@ h5 {
   display: inline-block;
   font-size: 16px;
   font-weight: 400;
-  /* text-transform: uppercase; */
   letter-spacing: 0px;
 }
 
@@ -368,7 +374,7 @@ h5 {
   text-align: center;
 }
 
-/* Works */
+
 .projects {
   padding: 7rem 0;
   background-color: var(--primary-bg-color);
@@ -459,7 +465,7 @@ h5 {
   text-align: left;
 }
 
-/* Contact */
+
 .contact {
   padding: 7rem 0;
   text-align: center;
