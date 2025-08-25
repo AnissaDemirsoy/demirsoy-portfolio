@@ -683,9 +683,12 @@ h5 {
     top: 0;
   }
   
-.hero-heading,
+
+.hero-heading {                 
+  color: var(--brand-violet) !important;
+}
 h2.title {
-  color: var(--brand-violet);
+  color: var(--brand-violet) !important;
 }
 
 
