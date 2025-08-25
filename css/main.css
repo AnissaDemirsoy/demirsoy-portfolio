@@ -20,6 +20,9 @@
   --color-dots: #1a1a1a;
 }
 
+hero-heading { color: var(--brand-violet); }
+title,
+service-card-title { color: var(--brand-violet); }
 
 html {
   scroll-behavior: smooth;
