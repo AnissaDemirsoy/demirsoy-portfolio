@@ -682,18 +682,12 @@ h5 {
   80% {
     top: 0;
   }
-}
-
-.hero-heading { color: var(--brand-violet); }
-
-.title,
-.service-card-title { color: var(--brand-violet); }
-
-
-.nav-link.active {
+  
+.hero-heading,
+h2.title {
   color: var(--brand-violet);
-  text-decoration-color: var(--brand-violet);
 }
+
 
 const goToTopBtn = document.getElementById('goToTop');
 
