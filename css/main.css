@@ -372,7 +372,6 @@ h5 {
   margin-bottom: 10px;
   font-weight: 600;
   font-size: clamp(1.125rem, 1.089rem + 0.18vw, 1.25rem);
-  color: var(--brand-violet);
 }
 
 .service-card p {
@@ -682,11 +681,14 @@ h5 {
   80% {
     top: 0;
   }
+}
   
 
-.hero-heading {                 
-  color: var(--brand-violet) !important;
-}
+/* ===== Thème violet ===== */
+:root { --brand-violet: #c71585; }  /* ta couleur */
+
+/* Nom + gros titres de sections */
+.hero-heading,
 #school .title,
 #projects .title,
 #skills .title,
@@ -698,7 +700,9 @@ h5 {
 #skills .service-card-title {
   color: var(--main-text-color) !important;
 }
-<link rel="stylesheet" href="css/main.css?v=violet-fix3">
+
+
+
 
 const goToTopBtn = document.getElementById('goToTop');
 
