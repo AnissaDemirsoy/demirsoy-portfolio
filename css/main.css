@@ -684,10 +684,7 @@ h5 {
 }
   
 
-/* ===== Thème violet ===== */
-:root { --brand-violet: #c71585; }  /* ta couleur */
 
-/* Nom + gros titres de sections */
 .hero-heading,
 #school .title,
 #projects .title,
@@ -700,8 +697,6 @@ h5 {
 #skills .service-card-title {
   color: var(--main-text-color) !important;
 }
-
-
 
 
 const goToTopBtn = document.getElementById('goToTop');
