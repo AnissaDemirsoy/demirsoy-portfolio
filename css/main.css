@@ -687,8 +687,16 @@ h5 {
 .hero-heading {                 
   color: var(--brand-violet) !important;
 }
-h3.title {
-  color: var(--primary-bg-color) !important;
+#school .title,
+#projects .title,
+#skills .title,
+#job .title,
+#contact .title {
+  color: var(--brand-violet) !important;
+}
+
+#skills .service-card-title {
+  color: var(--main-text-color) !important;
 }
 
 const goToTopBtn = document.getElementById('goToTop');
