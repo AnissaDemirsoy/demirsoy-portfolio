@@ -698,6 +698,7 @@ h5 {
 #skills .service-card-title {
   color: var(--main-text-color) !important;
 }
+<link rel="stylesheet" href="css/main.css?v=violet-fix3">
 
 const goToTopBtn = document.getElementById('goToTop');
 
