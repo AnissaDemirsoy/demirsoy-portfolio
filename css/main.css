@@ -202,7 +202,18 @@ h5 {
   text-underline-offset: 7px;
 }
 
-/* Hero section */
+.hero-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-left: 0;           /* enlever la marge fixe */
+  justify-content: center;  /* centrer le contenu */
+}
+.hero-description {
+  max-width: 900px;
+  margin: 0 auto;
+}
 .hero {
   position: relative;
   padding-top: 180px;
