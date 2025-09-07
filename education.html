@@ -217,4 +217,59 @@
       </div>
   </div>
 </section>
+ <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="#!">
+              <img
+                src="social_icons/github.svg"
+                alt="Link to GitHub account"
+              />
+            </a>
+
+            <a href="#!">
+              <img
+                src="social_icons/linkedin.svg"
+                alt="Link to linkedin profile"
+              />
+            </a>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright Anissa Demirsoy 2025</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"
+      /></a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="js/main.js"></script>
+    <script>
+  const accordions = document.querySelectorAll(".accordion");
+  accordions.forEach(acc => {
+    acc.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const panel = this.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
+   <div class="goToTop" id="goToTop">
+  <a href="#top"><img src="img/arrow-up.svg" alt="Go to top"></a>
+</div>
+
+  </body>
+</html>
 
