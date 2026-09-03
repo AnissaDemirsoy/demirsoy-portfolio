@@ -181,3 +181,24 @@
     flex: 1 1 100%;
   }
 }
+@media (max-width: 600px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-heading,
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-description {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .hero-description p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
