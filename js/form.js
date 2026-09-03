@@ -1,6 +1,10 @@
 const form = () => {
-  const contactForm = document.querySelector(".contactForm"),
-    responseMessage = document.querySelector(".response");
+  const contactForm = document.querySelector(".contactForm");
+  const responseMessage = document.querySelector(".response");
+
+  if (!contactForm || !responseMessage) {
+    return;
+  }
 
   contactForm.addEventListener("submit", async (e) => {
     e.preventDefault();
