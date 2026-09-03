@@ -226,6 +226,9 @@ h5 {
 
 .hero-heading {
   text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero-heading-subtitle {
@@ -235,6 +238,9 @@ h5 {
 
 .hero-title {
   text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
 }
 
 .hero-img {
@@ -260,6 +266,7 @@ h5 {
   line-height: 1.8;
   font-size: 1.1rem;
 }
+
 .about-social-list {
   display: flex;
 }
