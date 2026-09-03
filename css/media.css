@@ -97,7 +97,12 @@
   height: 100dvh;
   -webkit-overflow-scrolling: touch;
 }
-
+@media (max-width: 600px) {
+  .nav.open .nav-list {
+    font-size: 32px;
+    row-gap: 18px;
+  }
+}
   .nav-link {
     color: #565a5b;
   }
