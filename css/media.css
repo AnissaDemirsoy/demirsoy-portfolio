@@ -74,7 +74,7 @@
     display: block;
   }
 
-  .nav.open .nav-list {
+ .nav.open .nav-list {
   position: fixed;
   inset: 0;
   background-color: #fff;
@@ -90,13 +90,15 @@
   text-align: center;
   row-gap: 24px;
 
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 500;
 
   overflow-y: auto;
   height: 100dvh;
+  box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
 }
+  
   @media (max-width: 600px) {
   .nav.open .nav-list {
     font-size: 32px;
