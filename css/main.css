@@ -413,10 +413,18 @@ h5 {
 .project-img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
   transform: scale(1);
   transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+
+.project-box img.project-img {
+  height: auto;
+  object-fit: contain;
+}
+
+.project-box video.project-img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .project-mask {
