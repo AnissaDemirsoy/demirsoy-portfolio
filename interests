@@ -99,41 +99,103 @@
     </header>
 </br>
       </br>
- <section id="interests" class="works">
+<section id="interests" class="works">
   <div class="container container-lg">
 
     <div class="projects-title">
       <h2 class="title">Interests</h2>
     </div>
 
-   <div class="projects-subsection" style="margin-top: 1rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-      <p style="text-align:justify ; font-size: 1.1rem; line-height: 1.8; font-family: 'Poppins', sans-serif;">
-         <strong> Communication and events volunteer for CFE France, Perpignan, France </strong>
-        <p> Sept 2025 - May 2026 </p>
-        <p style="margin-top: 0.5rem; line-height: 1.7;">
-          Olympiads - conferences....
+    <div class="interests-intro">
+      <p>
+        Beyond chemistry, I enjoy exploring creative, cultural and sporting
+        activities that are an important part of my personal life.
+      </p>
+    </div>
+
+
+    <!-- ==================== MIXOLOGY ==================== -->
+
+    <div class="interest-section">
+
+      <div class="interest-text">
+        <h3>Mixology</h3>
+        <p>
+          I enjoy exploring mixology through the combination of flavours,
+          creativity and visual presentation.
         </p>
       </div>
-        <div class="projects-subsection" style="margin-top: 1rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-      <p style="text-align:justify ; font-size: 1.1rem; line-height: 1.8; font-family: 'Poppins', sans-serif;">
-         <strong> Production coordination for a independent Short Film "Ephémédrine", Bolquère, France </strong>
- <p> Jan 2026 </p>
-        <p style="margin-top: 0.5rem; line-height: 1.7;">
-          Worked as production manager on an independent short film within
-          a small production crew. Also in charge of the HMC,
-          and assisted other departments, including sound and set decoration.
-        </p>
+
+      <div class="interest-gallery">
+        <img src="img/interests/mixology-1.jpg" alt="Homemade cocktail">
+        <img src="img/interests/mixology-2.jpg" alt="Cocktail creation">
+        <img src="img/interests/mixology-3.jpg" alt="Mixology">
       </div>
-<div class="projects-subsection" style="margin-top: 1rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-      <p style="text-align:justify ; font-size: 1.1rem; line-height: 1.8; font-family: 'Poppins', sans-serif;">
-         <strong> Event & Content Volunteer for La Vague d'Amour × Nodo Beach Club, Canet-en-Roussillon, France </strong>
-         <p> Aug 2023 (1 Day) </p>
-        <p style="margin-top: 0.5rem; line-height: 1.7;">
-         Supported a promotional event through brand presentation, guest engagement and goodies distribution. Contributed to the event's visual communication by producing photographic content.
-        </p>
-      </div>    
 
     </div>
+
+
+    <!-- ==================== SPORT ==================== -->
+
+    <div class="interest-section">
+
+      <div class="interest-text">
+        <h3>Sport</h3>
+        <p>
+          Swimming is one of the sports I regularly enjoy practising.
+        </p>
+      </div>
+
+      <div class="interest-gallery">
+        <img src="img/interests/swimming-1.jpg" alt="Swimming">
+        <img src="img/interests/swimming-2.jpg" alt="Swimming">
+      </div>
+
+    </div>
+
+
+    <!-- ==================== ARTS & CREATIVITY ==================== -->
+
+    <div class="interest-section">
+
+      <div class="interest-text">
+        <h3>Arts & Creativity</h3>
+        <p>
+          Cinema, drawing and reading are some of my main creative and
+          artistic interests.
+        </p>
+      </div>
+
+      <div class="interest-gallery">
+        <img src="img/interests/drawing-1.jpg" alt="Personal drawing">
+        <img src="img/interests/cinema-1.jpg" alt="Cinema">
+        <img src="img/interests/reading-1.jpg" alt="Reading">
+      </div>
+
+    </div>
+
+
+    <!-- ==================== CULTURE & CURIOSITY ==================== -->
+
+    <div class="interest-section">
+
+      <div class="interest-text">
+        <h3>Culture & Curiosity</h3>
+        <p>
+          I enjoy visiting museums and exhibitions, particularly while
+          travelling, as well as attending scientific and cultural conferences.
+        </p>
+      </div>
+
+      <div class="interest-gallery">
+        <img src="img/interests/museum-1.jpg" alt="Museum visit">
+        <img src="img/interests/museum-2.jpg" alt="Museum exhibition">
+        <img src="img/interests/conference-1.jpg" alt="Conference">
+      </div>
+
+    </div>
+
+  </div>
 </section>
       
     </br>
