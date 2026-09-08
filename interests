@@ -85,10 +85,10 @@
               <li class="nav-item"><a href="education.html" class="nav-link">Education</a></li>
               <li class="nav-item"><a href="internship.html" class="nav-link">Internship</a></li>
               <li class="nav-item"><a href="skills.html" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
-<li class="nav-item"><a href="experience.html" class="nav-link">Volunteering</a></li>
-              <li class="nav-item"><a href="volunteering.html" class="nav-link active">Activity</a></li>
-              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+<li class="nav-item"><a href="volunteering.html" class="nav-link">Volunteering</a></li>
+<li class="nav-item"><a href="interests.html" class="nav-link active">Interests</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <button id="nav-btn" class="nav-btn">
               <img id="nav-btn-img" src="img/icons/open.svg" alt="Navigation button" />
@@ -99,11 +99,11 @@
     </header>
 </br>
       </br>
- <section id="Activity" class="works">
+ <section id="interests" class="works">
   <div class="container container-lg">
 
     <div class="projects-title">
-      <h2 class="title">Activity</h2>
+      <h2 class="title">Interests</h2>
     </div>
 
    <div class="projects-subsection" style="margin-top: 1rem; max-width: 800px; margin-left: auto; margin-right: auto;">
