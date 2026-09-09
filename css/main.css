@@ -469,8 +469,126 @@ h5 {
   text-align: left;
 }
 
-/* ==================== VOLUNTEERING ==================== */
+.experience-intro {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-align: center;
+  line-height: 1.7;
+}
 
+.experience-category {
+  max-width: 950px;
+  margin: 0 auto 25px;
+}
+
+.experience-category-title {
+  width: 100%;
+  padding: 18px 22px;
+  border: none;
+  border-radius: 10px;
+  background: #f4f4f4;
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: background 0.3s ease;
+}
+
+.experience-category-title:hover {
+  background: #eaeaea;
+}
+
+.experience-arrow {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.experience-category.active .experience-arrow {
+  transform: rotate(45deg);
+}
+
+.experience-category-content {
+  display: none;
+  padding-top: 15px;
+}
+
+.experience-category.active .experience-category-content {
+  display: block;
+}
+
+.experience-card {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.experience-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
+.experience-company {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.experience-date {
+  opacity: 0.7;
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+}
+
+.experience-label {
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.experience-description {
+  line-height: 1.7;
+}
+
+.experience-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.experience-skills span {
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.88rem;
+}
+
+@media (max-width: 600px) {
+
+  .experience-category-title {
+    padding: 15px 17px;
+    font-size: 1.1rem;
+  }
+
+  .experience-card {
+    padding: 18px;
+  }
+}
 .volunteer-item {
   max-width: 950px;
   margin: 0 auto 60px;
