@@ -523,6 +523,17 @@
     });
   });
 </script>
+      <script>
+  const experienceCategories =
+    document.querySelectorAll(".experience-category-title");
+
+  experienceCategories.forEach((button) => {
+    button.addEventListener("click", () => {
+      const category = button.parentElement;
+      category.classList.toggle("active");
+    });
+  });
+</script>
    <div class="goToTop" id="goToTop">
   <a href="#top"><img src="img/arrow-up.svg" alt="Go to top"></a>
 </div>
