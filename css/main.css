@@ -135,7 +135,6 @@ h5 {
   color: var(--white-color);
 }
 
-/* Header */
 .header {
   z-index: 100;
   background-color: transparent;
@@ -871,7 +870,9 @@ h5 {
 #school .title,
 #projects .title,
 #skills .title,
-#job .title,
+#experience .title,
+#volunteering .title,
+#interests .title,
 #contact .title {
   color: var(--brand-violet) !important;
 }
