@@ -20,9 +20,14 @@
   --color-dots: #1a1a1a;
 }
 
-hero-heading { color: var(--brand-violet); }
-title,
-service-card-title { color: var(--brand-violet); }
+.hero-heading {
+  color: var(--brand-violet);
+}
+
+.title,
+.service-card-title {
+  color: var(--brand-violet);
+}
 
 html {
   scroll-behavior: smooth;
@@ -876,6 +881,13 @@ h5 {
 #contact .title {
   color: var(--brand-violet) !important;
 }
+.experience-card h3,
+.volunteer-text h3,
+.interest-text h3,
+.experience-category-title {
+  color: var(--brand-violet);
+}
+
 
 #skills .service-card-title {
   color: var(--main-text-color) !important;
