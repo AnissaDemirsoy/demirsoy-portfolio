@@ -881,12 +881,6 @@ h5 {
 #contact .title {
   color: var(--brand-violet) !important;
 }
-.experience-card h3,
-.volunteer-text h3,
-.interest-text h3,
-.experience-category-title {
-  color: var(--brand-violet);
-}
 
 
 #skills .service-card-title {
