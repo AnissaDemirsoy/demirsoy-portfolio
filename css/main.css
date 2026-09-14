@@ -376,7 +376,7 @@ h5 {
   font-size: 1.35rem;
   font-weight: 600;
   margin-bottom: 8px;
-  color: var(--brand-violet);
+  color: var(--primary-bg-color);
 }
 
 .section-meta {
