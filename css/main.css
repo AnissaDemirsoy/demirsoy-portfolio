@@ -372,6 +372,28 @@ h5 {
 }
 
 
+.section-heading {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--brand-violet);
+}
+
+.section-meta {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.section-text {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.section-block {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
 .projects {
   padding: 7rem 0;
   background-color: var(--primary-bg-color);
@@ -481,7 +503,6 @@ h5 {
   margin: 0 auto;
 }
 
-/* Keep videos as they were */
 #school .project-box video.project-img {
   display: block;
   width: 100%;
@@ -654,8 +675,6 @@ h5 {
 }
 
 
-/* Mobile */
-
 @media (max-width: 768px) {
 
   .volunteer-item,
@@ -719,7 +738,6 @@ h5 {
   margin-top: 20px;
 }
 
-/* Footer */
 .footer {
   background-color: var(--primary-accent);
   color: var(--gray-color-3);
@@ -769,7 +787,6 @@ h5 {
   visibility: visible;
 }
 
-/* "go to top" button */
 .goToTop {
   z-index: 599;
   position: fixed;
@@ -815,7 +832,6 @@ h5 {
   transition: all 0.3s;
 }
 
-/* Preloader with jumping dots */
 #preloader {
   position: fixed;
   display: flex;
