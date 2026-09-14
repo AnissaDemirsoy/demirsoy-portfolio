@@ -372,11 +372,16 @@ h5 {
 }
 
 
+.section-block {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
 .section-heading {
   font-size: 1.35rem;
   font-weight: 600;
   margin-bottom: 8px;
-  color: var( --primary-accent);
+  color: #000;
 }
 
 .section-meta {
@@ -388,11 +393,7 @@ h5 {
 .section-text {
   font-size: 1rem;
   line-height: 1.7;
-}
-
-.section-block {
-  max-width: 800px;
-  margin: 0 auto 2rem;
+  color: #000;
 }
 .projects {
   padding: 7rem 0;
