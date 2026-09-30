@@ -201,13 +201,28 @@
     font-size: 1rem;
     line-height: 1.7;
   }
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
 }
+.education-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
 .media-container {
-  width: 100%;
-  max-width: 500px;
-  aspect-ratio: 16 / 9; /* même format pour tout */
+  width: 300px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 10px;
+  flex-shrink: 0;
 }
 
 .media-container img,
@@ -215,5 +230,19 @@
 .media-container iframe {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* coupe proprement */
+  object-fit: cover;
+}
+
+.education-content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+  }
+
+  .media-container {
+    width: 100%;
+  }
 }
