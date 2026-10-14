@@ -900,6 +900,20 @@ h5 {
   80% {
     top: 0;
   }
+  .under-construction {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.under-construction h2 {
+  color: #000;
+  margin-bottom: 15px;
+}
 }
   
 
