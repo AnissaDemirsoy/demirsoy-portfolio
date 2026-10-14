@@ -694,50 +694,50 @@ h5 {
   }
 
 
+
 #interests {
-  padding: 110px 0 80px;
+  padding: 100px 0 70px;
 }
 
 #interests .title {
   color: var(--brand-violet);
-  margin: 0 0 25px;
 }
 
+/* Introduction */
 
 #interests .interests-intro {
-  max-width: 800px;
-  margin: 0 auto 65px;
+  max-width: 850px;
+  margin: 0 auto 55px;
   text-align: center;
 }
 
 #interests .interests-intro p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: #333;
 }
 
-
 #interests .interest-section {
-  max-width: 1050px;
-  margin: 0 auto 70px;
+  max-width: 1000px;
+  margin: 0 auto 65px;
 }
 
 #interests .interest-text {
   max-width: 850px;
-  margin: 0 auto 24px;
+  margin: 0 auto 22px;
 }
 
 #interests .interest-text h3 {
+  color: #000;
   font-size: 1.35rem;
   font-weight: 600;
-  color: #000;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 #interests .interest-text p {
+  color: #333;
   font-size: 1rem;
   line-height: 1.8;
-  color: #333;
   text-align: justify;
 }
 
@@ -745,54 +745,51 @@ h5 {
 #interests .interest-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 15px;
+  gap: 14px;
+  align-items: stretch;
 }
 
 #interests .interest-gallery img {
   display: block;
   width: 100%;
-  height: 250px;
+  height: 235px;
   object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.35s ease;
+  border-radius: 9px;
+  transition: transform 0.3s ease;
 }
 
 #interests .interest-gallery img:hover {
   transform: scale(1.025);
 }
 
+/* Galleries containing exactly two images */
 
 #interests .interest-gallery:has(> img:nth-child(2):last-child) {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 #interests .interest-gallery:has(> img:nth-child(2):last-child) img {
-  height: 310px;
+  height: 285px;
 }
 
 
 @media (max-width: 900px) {
-  #interests .interest-section {
-    margin-bottom: 55px;
-  }
-
   #interests .interest-gallery img {
-    height: 200px;
+    height: 190px;
   }
 
   #interests .interest-gallery:has(> img:nth-child(2):last-child) img {
-    height: 240px;
+    height: 220px;
   }
 }
 
-
 @media (max-width: 600px) {
   #interests {
-    padding: 105px 0 50px;
+    padding: 100px 0 45px;
   }
 
-  #interests .interests-intro {
-    margin-bottom: 40px;
+  #interests .interest-section {
+    margin-bottom: 45px;
   }
 
   #interests .interest-text p {
@@ -807,14 +804,15 @@ h5 {
 
   #interests .interest-gallery img,
   #interests .interest-gallery:has(> img:nth-child(2):last-child) img {
-    height: 170px;
+    height: 155px;
   }
 
   #interests .interest-gallery img:first-child:nth-last-child(3) {
     grid-column: span 2;
-    height: 230px;
+    height: 215px;
   }
 }
+
 
 }
 .contact {
