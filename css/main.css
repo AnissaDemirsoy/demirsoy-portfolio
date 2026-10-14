@@ -692,6 +692,7 @@ h5 {
     height: auto;
     max-height: 350px;
   }
+}
 
 
 
@@ -810,7 +811,6 @@ h5 {
   #interests .interest-gallery img:first-child:nth-last-child(3) {
     grid-column: span 2;
     height: 215px;
-  }
 }
 
 
@@ -1021,7 +1021,9 @@ h5 {
   80% {
     top: 0;
   }
-  .under-construction {
+}
+
+.under-construction {
   min-height: 60vh;
   display: flex;
   flex-direction: column;
