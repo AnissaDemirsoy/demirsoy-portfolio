@@ -752,20 +752,20 @@ h5 {
 }
 
 
-#interests .interest-section:nth-of-type(2n) {
+#interests .interest-section.reverse {
   flex-direction: row-reverse;
 }
 
 
 @media (max-width: 768px) {
   #interests .interest-section,
-  #interests .interest-section:nth-of-type(2n) {
+  #interests .interest-section.reverse {
     flex-direction: column;
     align-items: stretch;
     gap: 20px;
     margin-bottom: 50px;
   }
-
+}
   #interests .interest-gallery {
     width: 100%;
     flex-basis: auto;
@@ -774,7 +774,6 @@ h5 {
   #interests .interest-gallery img {
     max-height: 280px;
   }
-}
 
 .contact {
   padding: 7rem 0;
