@@ -731,7 +731,8 @@ h5 {
 
 #interests .interest-section:nth-child(3),
 #interests .interest-section:nth-child(5) {
-  transform: translateY(130px);
+  position: relative;
+  top: 100px;
 }
 
 #interests .interest-text {
@@ -1022,8 +1023,7 @@ h5 {
   color: #000;
   margin-bottom: 15px;
 }
-}
-  
+
 
 
 .hero-heading,
